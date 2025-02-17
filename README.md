@@ -1,2 +1,2 @@
-# java-poo-exercicios
-Exercícios desenvolvidos na disciplina de Programação Orientada a Objetos na FIAP.
+# java-fiap-exercicios
+Exercícios desenvolvidos nas disciplina de Programação Orientada a Objetos e Códigos de Alta Performance na FIAP.
