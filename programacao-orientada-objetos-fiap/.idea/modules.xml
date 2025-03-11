@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aula0211/aula0211.iml" filepath="$PROJECT_DIR$/aula0211/aula0211.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula0225/aula0225.iml" filepath="$PROJECT_DIR$/aula0225/aula0225.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula0311/aula0311.iml" filepath="$PROJECT_DIR$/aula0311/aula0311.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula0218/ex_04/ex_04.iml" filepath="$PROJECT_DIR$/aula0218/ex_04/ex_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula0211/exercicio-revisao/exercicio-revisao.iml" filepath="$PROJECT_DIR$/aula0211/exercicio-revisao/exercicio-revisao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula0218/gerenciador-aluno/gerenciador-aluno.iml" filepath="$PROJECT_DIR$/aula0218/gerenciador-aluno/gerenciador-aluno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/programacao-orientada-objetos-fiap.iml" filepath="$PROJECT_DIR$/.idea/programacao-orientada-objetos-fiap.iml" />
+    </modules>
+  </component>
+</project>
