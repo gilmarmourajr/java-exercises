@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Distância entre pontos B e A: "+pontoB.calcularDistancia(pontoA));
         System.out.println("Distância entre ponto A e origem: "+pontoA.calcularDistanciaOrigem());
         System.out.println("Distância entre ponto B e origem: "+pontoB.calcularDistanciaOrigem());
-        System.out.println("Ponto mais próximo à origem: "+pontoA.compararDistanciaOrigem(pontoB));
+        System.out.println("Ponto mais próximo à origem: "+Ponto.maisPertoDaOrigem(pontoA, pontoB));
         System.out.println("Ponto A: "+pontoA);
         System.out.println("Ponto B: "+pontoB);
     }

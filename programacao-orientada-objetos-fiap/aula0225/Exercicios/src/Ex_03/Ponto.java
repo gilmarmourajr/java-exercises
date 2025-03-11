@@ -22,12 +22,24 @@ public class Ponto {
         return this.calcularDistancia(origem);
     }
 
-    public Ponto compararDistanciaOrigem(Ponto b){
+/*    public Ponto compararDistanciaOrigem(Ponto b){
         double distanciaThis = this.calcularDistanciaOrigem();
         double distanciaB = b.calcularDistanciaOrigem();
 
         if(distanciaThis<distanciaB){
             return this;
+        }
+
+        return b;
+    }
+    */
+
+    public static Ponto maisPertoDaOrigem(Ponto a, Ponto b){
+        double distanciaA = a.calcularDistanciaOrigem();
+        double distanciaB = b.calcularDistanciaOrigem();
+
+        if(distanciaA<distanciaB){
+            return a;
         }
 
         return b;
