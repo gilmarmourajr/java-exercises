@@ -48,7 +48,6 @@ public class Main {
         System.out.println();
 
         f[numFuncionarios] = new Funcionario(nome, salario, cargo);
-        System.out.println(numFuncionarios);
     }
 
     public static void pesquisarFuncionario(Funcionario[] f, Scanner sc){
