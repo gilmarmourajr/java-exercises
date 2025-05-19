@@ -17,7 +17,17 @@ public class MainTeste {
 			System.out.print("Informe valor positivo para inserir (negativo sair): ");
 			valor = le.nextInt();
 		}
-		
+
+		System.out.print("\n\nInforme valor positivo para remover (negativo sair): ");
+		int valor = le.nextInt();
+		ListaIntCrescente lista = new ListaIntCrescente();
+		while (valor>=0) {
+			lista.remove(valor);
+			lista.mostra();
+			System.out.print("Informe valor positivo para remover (negativo sair): ");
+			valor = le.nextInt();
+		}
+
 		le.close();
 
 	}

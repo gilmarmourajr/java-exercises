@@ -45,6 +45,7 @@ public class ListaIntCrescente {
 		if (lista != null) {
 			// verificar se o primeiro valor é o procurado
 			if (lista.dado == valor) {
+				achou = true;
 				lista = lista.prox;
 			} else {
 				NO aux = lista;
