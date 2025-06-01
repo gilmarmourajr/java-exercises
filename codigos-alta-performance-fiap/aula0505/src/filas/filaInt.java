@@ -29,4 +29,22 @@ public class filaInt {
 
         fim = novo;
     }
+
+    public String menor() {
+        if (isEmpty()) {
+            return "Fila vazia";
+        }
+
+        NO aux = ini;
+        NO menor = ini;
+
+        while(aux.prox != null) {
+            if(aux.prox.dado < menor.dado) {
+                menor = aux.prox;
+            }
+            aux = aux.prox;
+        }
+
+        return "O menor dado é " + menor.dado;
+    }
 }
