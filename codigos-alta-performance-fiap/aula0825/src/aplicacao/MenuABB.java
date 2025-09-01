@@ -13,6 +13,7 @@ public class MenuABB {
             System.out.println("0 - Sair");
             System.out.println("1 - Inserir 1 valor na ABB");
             System.out.println("2 - Apresenta ABB em ordem");
+            System.out.println("3 - Apresenta quantidade de nós");
             System.out.print("Opção: ");
             opcao = sc.nextInt();
             switch (opcao) {
@@ -26,6 +27,9 @@ public class MenuABB {
                     break;
                 case 2:
                     abb.show(abb.root);
+                    break;
+                case 3:
+                    System.out.println(abb.contaNos(abb.root, 0));
                     break;
                 default:
                     System.out.println("Opção inválida");;
